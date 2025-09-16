@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/NITISH%20PRIYAN/Downloads/AIWORKFORCE/mlruns/887932428873536288/031214a06323452c8d55a92fcbea3aa0/artifacts
+end_time: 1758001950566
+entry_point_name: ''
+experiment_id: '887932428873536288'
+lifecycle_stage: active
+run_id: 031214a06323452c8d55a92fcbea3aa0
+run_name: Gradient Boosting
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758001944968
+status: 3
+tags: []
+user_id: NITISH PRIYAN

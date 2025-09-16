@@ -1,0 +1,10 @@
+artifact_location: file:///c:/Users/NITISH%20PRIYAN/Downloads/AIWORKFORCE/mlruns/887932428873536288/models/m-378fa3cff8df4764aa84d18d156be15a/artifacts
+creation_timestamp: 1757996495066
+experiment_id: '887932428873536288'
+last_updated_timestamp: 1757996498467
+model_id: m-378fa3cff8df4764aa84d18d156be15a
+model_type: null
+name: model
+source_run_id: b23be50aff13483aa670f737bb2e7e09
+status: 2
+status_message: null

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Obesity Prediction</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container mt-5">
+    <h2 class="text-center">Obesity Prediction Form</h2>
+    <form method="POST" action="/predict">
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <label>Gender</label>
+                <select class="form-control" name="Gender">
+                    <option>Female</option>
+                    <option>Male</option>
+                </select>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label>Age</label>
+                <input type="number" class="form-control" name="Age" required>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label>Height (meters)</label>
+                <input type="number" step="0.01" class="form-control" name="Height" required>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label>Weight (kg)</label>
+                <input type="number" step="0.1" class="form-control" name="Weight" required>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label>Family History with Overweight</label>
+                <select class="form-control" name="family_history_with_overweight">
+                    <option>yes</option>
+                    <option>no</option>
+                </select>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label>FAVC</label>
+                <select class="form-control" name="FAVC">
+                    <option>yes</option>
+                    <option>no</option>
+                </select>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label>FCVC</label>
+                <input type="number" class="form-control" name="FCVC" required>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label>NCP</label>
+                <input type="number" class="form-control" name="NCP" required>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label>CAEC</label>
+                <select class="form-control" name="CAEC">
+                    <option>Sometimes</option>
+                    <option>Frequently</option>
+                    <option>Always</option>
+                    <option>No</option>
+                </select>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label>SMOKE</label>
+                <select class="form-control" name="SMOKE">
+                    <option>yes</option>
+                    <option>no</option>
+                </select>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label>CH2O</label>
+                <input type="number" class="form-control" name="CH2O" required>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label>SCC</label>
+                <select class="form-control" name="SCC">
+                    <option>yes</option>
+                    <option>no</option>
+                </select>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label>FAF</label>
+                <input type="number" class="form-control" name="FAF" required>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label>TUE</label>
+                <select class="form-control" name="TUE">
+                    <option>no</option>
+                    <option>Sometimes</option>
+                    <option>Always</option>
+                    <option>Frequently</option>
+                </select>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label>CALC</label>
+                <select class="form-control" name="CALC">
+                    <option>no</option>
+                    <option>Sometimes</option>
+                    <option>Frequently</option>
+                    <option>Always</option>
+                </select>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label>MTRANS</label>
+                <select class="form-control" name="MTRANS">
+                    <option>Public_Transportation</option>
+                    <option>Automobile</option>
+                    <option>Walking</option>
+                    <option>Bike</option>
+                    <option>Motorbike</option>
+                </select>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Predict</button>
+    </form>
+    
+    {% if prediction_text %}
+        <div class="alert alert-success mt-4">
+            {{ prediction_text }}
+        </div>
+    {% endif %}
+</div>
+</body>
+</html>

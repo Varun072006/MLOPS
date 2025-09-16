@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/NITISH%20PRIYAN/Downloads/AIWORKFORCE/mlruns/887932428873536288/f8c37e74c3a84ba7958b7aab019ae9b3/artifacts
+deleted_time: 1757996867627
+end_time: 1757996461531
+entry_point_name: ''
+experiment_id: '887932428873536288'
+lifecycle_stage: deleted
+run_id: f8c37e74c3a84ba7958b7aab019ae9b3
+run_name: Logistic Regression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757996461230
+status: 4
+tags: []
+user_id: NITISH PRIYAN

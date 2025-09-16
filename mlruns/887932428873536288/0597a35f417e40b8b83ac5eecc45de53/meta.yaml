@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/NITISH%20PRIYAN/Downloads/AIWORKFORCE/mlruns/887932428873536288/0597a35f417e40b8b83ac5eecc45de53/artifacts
+end_time: 1758001954715
+entry_point_name: ''
+experiment_id: '887932428873536288'
+lifecycle_stage: active
+run_id: 0597a35f417e40b8b83ac5eecc45de53
+run_name: Support Vector Classifier
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758001950571
+status: 3
+tags: []
+user_id: NITISH PRIYAN

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/NITISH%20PRIYAN/Downloads/AIWORKFORCE/mlruns/887932428873536288/7d7fd534c4ff41a68f1c4a3dd25d1163/artifacts
+deleted_time: 1758002028906
+end_time: 1758001876044
+entry_point_name: ''
+experiment_id: '887932428873536288'
+lifecycle_stage: deleted
+run_id: 7d7fd534c4ff41a68f1c4a3dd25d1163
+run_name: Random Forest
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758001871546
+status: 3
+tags: []
+user_id: NITISH PRIYAN

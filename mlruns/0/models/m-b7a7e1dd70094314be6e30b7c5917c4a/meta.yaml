@@ -1,0 +1,10 @@
+artifact_location: file:///c:/Users/NITISH%20PRIYAN/Downloads/AIWORKFORCE/mlruns/0/models/m-b7a7e1dd70094314be6e30b7c5917c4a/artifacts
+creation_timestamp: 1757996087366
+experiment_id: '0'
+last_updated_timestamp: 1757996091490
+model_id: m-b7a7e1dd70094314be6e30b7c5917c4a
+model_type: null
+name: best_obesity_model
+source_run_id: null
+status: 2
+status_message: null

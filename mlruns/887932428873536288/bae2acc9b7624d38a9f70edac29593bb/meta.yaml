@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/NITISH%20PRIYAN/Downloads/AIWORKFORCE/mlruns/887932428873536288/bae2acc9b7624d38a9f70edac29593bb/artifacts
+deleted_time: 1758002028882
+end_time: 1758001931229
+entry_point_name: ''
+experiment_id: '887932428873536288'
+lifecycle_stage: deleted
+run_id: bae2acc9b7624d38a9f70edac29593bb
+run_name: K-Nearest Neighbors
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758001927395
+status: 3
+tags: []
+user_id: NITISH PRIYAN
